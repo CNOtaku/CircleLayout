@@ -15,6 +15,8 @@
 		91B722351D9110FB00CD7136 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91B722331D9110FB00CD7136 /* LaunchScreen.storyboard */; };
 		91B722401D9110FB00CD7136 /* CircleLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B7223F1D9110FB00CD7136 /* CircleLayoutTests.m */; };
 		91B7224B1D9110FB00CD7136 /* CircleLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B7224A1D9110FB00CD7136 /* CircleLayoutUITests.m */; };
+		91B7225A1D91113600CD7136 /* CircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B722591D91113600CD7136 /* CircleLayout.m */; };
+		91B7225D1D9118C700CD7136 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B7225C1D9118C700CD7136 /* CollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		91B722461D9110FB00CD7136 /* CircleLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91B7224A1D9110FB00CD7136 /* CircleLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleLayoutUITests.m; sourceTree = "<group>"; };
 		91B7224C1D9110FB00CD7136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91B722581D91113600CD7136 /* CircleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleLayout.h; sourceTree = "<group>"; };
+		91B722591D91113600CD7136 /* CircleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleLayout.m; sourceTree = "<group>"; };
+		91B7225B1D9118C700CD7136 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		91B7225C1D9118C700CD7136 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				91B722291D9110FB00CD7136 /* AppDelegate.m */,
 				91B7222B1D9110FB00CD7136 /* ViewController.h */,
 				91B7222C1D9110FB00CD7136 /* ViewController.m */,
+				91B722581D91113600CD7136 /* CircleLayout.h */,
+				91B722591D91113600CD7136 /* CircleLayout.m */,
+				91B7225B1D9118C700CD7136 /* CollectionViewCell.h */,
+				91B7225C1D9118C700CD7136 /* CollectionViewCell.m */,
 				91B7222E1D9110FB00CD7136 /* Main.storyboard */,
 				91B722311D9110FB00CD7136 /* Assets.xcassets */,
 				91B722331D9110FB00CD7136 /* LaunchScreen.storyboard */,
@@ -277,6 +287,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				91B7222D1D9110FB00CD7136 /* ViewController.m in Sources */,
+				91B7225D1D9118C700CD7136 /* CollectionViewCell.m in Sources */,
+				91B7225A1D91113600CD7136 /* CircleLayout.m in Sources */,
 				91B7222A1D9110FB00CD7136 /* AppDelegate.m in Sources */,
 				91B722271D9110FB00CD7136 /* main.m in Sources */,
 			);
